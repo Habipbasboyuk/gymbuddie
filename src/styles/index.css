@@ -1,0 +1,31 @@
+:root {
+    --primary-color: #4f8cff;
+    --secondary-color: #ffb347;
+    --bg-color: #C6C6C6;
+    --fg-color: #D9D9D9;
+    --title-color: #005EEA;
+    --text-color: #525252;
+    --accent-color: #A7A7A7;
+
+    --width-sm: 30rem;
+    --width-md: 50rem;
+    --width-lg: 70rem;
+
+
+    --padding-sm: 0.5rem;
+    --padding-md: 1rem;
+    --padding-lg: 2rem;
+
+    
+    --margin-sm: 0.5rem;
+    --margin-md: 1rem;
+    --margin-lg: 2rem;
+
+
+    --border-radius: 0.5rem;
+
+
+
+
+    --font-family: 'Segoe UI', Arial, sans-serif;
+}
