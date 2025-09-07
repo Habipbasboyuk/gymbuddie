@@ -7,6 +7,9 @@
     --text-color: #525252;
     --accent-color: #A7A7A7;
 
+
+    --button-color: var(--primary-color);
+
     --width-sm: 30rem;
     --width-md: 50rem;
     --width-lg: 70rem;
@@ -16,7 +19,7 @@
     --padding-md: 1rem;
     --padding-lg: 2rem;
 
-    
+
     --margin-sm: 0.5rem;
     --margin-md: 1rem;
     --margin-lg: 2rem;
@@ -28,4 +31,29 @@
 
 
     --font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+h1 {
+    color: var(--title-color);
+    font-size: 2.5rem;
+    margin-bottom: var(--margin-md);
+}
+
+p {
+    color: var(--text-color);
+}
+
+button {
+    background-color: var(--button-color);
+    padding: var(--padding-sm);
+    border-radius: var(--border-radius);
+    border: none;
 }
