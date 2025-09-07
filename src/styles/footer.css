@@ -1,0 +1,12 @@
+.footer {
+    height: 4.5rem;
+    border-radius: 10px 10px 0 0;
+    background-color: var(--title-color);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

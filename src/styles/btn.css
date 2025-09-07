@@ -1,0 +1,16 @@
+
+.btn {
+    background-color: var(--button-color);
+    padding: var(--padding-sm);
+    border-radius: var(--border-radius);
+    border: none;
+    color: white;
+}
+
+.app__new-workout-btn {
+    width: 70%;
+    margin: 0 auto;
+    padding: 0.8rem;
+    border-radius: 25px;
+}
+
