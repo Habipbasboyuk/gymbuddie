@@ -51,3 +51,7 @@ p {
     color: var(--text-color);
 }
 
+body {
+    font-family: 'Outfit', sans-serif;
+}
+

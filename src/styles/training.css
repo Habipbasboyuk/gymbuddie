@@ -36,5 +36,14 @@
         background-color: white;
         border-radius: 25px;
         padding: 0.3rem;
+        margin-bottom: 0.5rem;
     }
+}
+
+.training__info, .training__title{
+    margin: 0;
+}
+
+.training__card-link {
+    text-decoration: none;
 }
