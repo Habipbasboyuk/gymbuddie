@@ -1,11 +1,22 @@
 @import url('./training.css');
 @import url('./btn.css');
 @import url('./footer.css');
+@import url('./form.css');
 
 body {
   background-color: #C6C6C6;
 }
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
 
 .app__title-highlight {
   color: white;
+}
+
+html {
+  height: 100%;
 }

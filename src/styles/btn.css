@@ -14,3 +14,11 @@
     border-radius: 25px;
 }
 
+
+.training__option-edit {
+    background-color: rgb(107, 107, 107);
+}
+
+.training__option-delete {
+    background-color: rgb(181, 40, 40);
+}
