@@ -1,0 +1,8 @@
+.workout__input {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: var(--border-radius);
+}
+.workout {
+    margin-bottom: 5rem; /* <-- Voeg deze regel toe */
+}

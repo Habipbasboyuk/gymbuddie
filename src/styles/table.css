@@ -1,0 +1,51 @@
+
+
+.workout__exercise {
+    background-color: var(--fg-color);
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 25px;
+}
+
+.workout__exercise-name {
+    font-weight: bold;
+    color: var(--title-color);
+    margin: 0;
+    margin-bottom: 0.5rem;
+
+    padding: 2rem;
+}
+
+.workout__table-cell--previous {
+    font-style: italic;
+    font-size: 0.8rem;
+    color: var(--accent-color);
+}
+
+.workout__table {
+    width: 100%;
+    
+    table-layout: fixed;
+
+    
+}
+
+.workout__table-header {
+    color: var(--accent-color);
+}
+
+.workout__table-cell {
+    padding: 0.5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+.workout__add-set-btn {
+    width: 95%;
+    background-color: var(--accent-color);
+    color: var(--text-color);
+    font-weight: bold;
+    margin: 0.5rem 0.5rem;
+}

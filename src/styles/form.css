@@ -62,3 +62,15 @@
     right: 1rem;
     border-radius: 25px;
 }
+
+.post__form-exercises {
+    height: 80px;
+    overflow-y: auto;
+}
+
+.post__form-exercise-checkbox input[type="checkbox"] {
+    background: green;
+    border-radius: 6px;
+    padding: 0.2rem 0.5rem;
+    transition: background 0.2s
+}

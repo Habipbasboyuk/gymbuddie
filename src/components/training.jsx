@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { useState } from 'react';
 
 
-function Training({ name, exerciseCount }) {
+function Training({ id, name, exerciseCount, onDelete, documentId }) {
     const [isOptionsOpen, setIsOptionsOpen] = useState(false);
 
     return (
@@ -24,14 +24,14 @@ function Training({ name, exerciseCount }) {
             </div>
             <p className="training__title">{name}</p>
             <p className="training__info">{exerciseCount} exercises</p>
-            <Link className="training__card-link" to="/workout">
-                    <button className="btn training__start-btn">Start workout</button>
-            </Link>
+<Link className="training__card-link" to={`/workout/${id}`}>
+  <button className="btn training__start-btn">Start workout</button>
+</Link>
 
             {isOptionsOpen && (
                 <div className="training__options-menu">
                     <button className="btn training__option-edit">Edit</button>
-                    <button className="btn training__option-delete">Delete</button>
+                    <button onClick={() => onDelete(documentId)} className="btn training__option-delete">Delete</button>
                 </div>
             )}
         </article>
